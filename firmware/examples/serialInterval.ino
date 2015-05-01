@@ -1,6 +1,6 @@
 // This example sends a Serial message every 250 milliseconds
 
-#include <Metro-Arduino-Spark-Wiring.h> // Include the Metro library
+#include "Metro-Arduino-Spark-Wiring/Metro-Arduino-Spark-Wiring.h" // Include the Metro library
 
 Metro serialMetro = Metro(250);  // Instantiate an instance
 

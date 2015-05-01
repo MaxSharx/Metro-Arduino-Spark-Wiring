@@ -3,8 +3,11 @@
  It will stay on for 0.25 seconds.
  It will stay off for 1 second.
  */
-#include <Metro-Arduino-Spark-Wiring.h> //Include Metro library
+
+#include "Metro-Arduino-Spark-Wiring/Metro-Arduino-Spark-Wiring.h" //Include Metro library
+
 #define LED 13 // Define the led's pin
+
 
 //Create a variable to hold theled's current state
 int state = HIGH;
