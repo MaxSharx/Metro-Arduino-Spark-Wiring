@@ -31,7 +31,7 @@
     #include "WProgram.h"
   #endif
 #endif
-#include "Metro.h"
+#include "Metro-Arduino-Spark-Wiring.h"
 
 Metro::Metro()
 {
