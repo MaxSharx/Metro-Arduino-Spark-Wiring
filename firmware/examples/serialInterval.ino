@@ -14,11 +14,10 @@ void loop() {
   // Output all the analog readings seperated by a space character
     for (int i = 0; i < 6; i++ ) {
       Serial.print (analogRead( i) );
-      Serial.print(32,BYTE);
+      Serial.print(' ');
     }
     // Terminate message with a linefeed and a carriage return
-    Serial.print(13,BYTE);
-    Serial.print(10,BYTE);
+    Serial.println('');
   }
 }
 
