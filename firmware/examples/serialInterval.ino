@@ -17,7 +17,6 @@ void loop() {
       Serial.print(' ');
     }
     // Terminate message with a linefeed and a carriage return
-    Serial.println('');
+    Serial.println("");
   }
 }
-
