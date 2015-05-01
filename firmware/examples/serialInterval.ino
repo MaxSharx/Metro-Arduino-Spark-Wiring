@@ -5,7 +5,7 @@
 Metro serialMetro = Metro(250);  // Instantiate an instance
 
 void setup() {
-  Serial.begin(115200); // Start the Serial communication
+  Serial.begin(9600); // Start the Serial communication
 }
 
 void loop() {
