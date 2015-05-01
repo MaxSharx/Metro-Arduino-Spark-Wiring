@@ -2,7 +2,7 @@
 // abd will blink output 9 every 125 ms
 
 
-#include <Metro.h> // Include Metro library
+#include <Metro-Arduino-Spark-Wiring.h> // Include Metro library
 #define LED0 13 // Define a LED pin
 #define LED1 9 // Define another LED pin
 
