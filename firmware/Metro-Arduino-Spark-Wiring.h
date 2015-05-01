@@ -35,7 +35,7 @@ public:
   Metro();
   Metro(unsigned long interval_millis);
   void interval(unsigned long interval_millis);
-  uint8_t check();
+  unsigned int check();
   void reset();
 	
 private:
